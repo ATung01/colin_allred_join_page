@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Button, Divider, Grid } from 'semantic-ui-react'
+import { Segment, Button, Divider, Icon } from 'semantic-ui-react'
 
 
 class Footer extends React.Component {
@@ -18,13 +18,21 @@ class Footer extends React.Component {
         <a> | </a>
         <a> Jobs </a>
         <Divider className='footerdiv' section></Divider>
-        <Button/>
+        <div className='paidFor'>
+          <a>Paid for by Colin Allred for Congress</a>
+        </div>
+        <div className='social'>
+          <Icon name='facebook' size='huge'/>
+          <Icon name='twitter' size='huge'/>
+          <Icon name='instagram' size='huge'/>
+        </div>
+        <div className='address'>
+          <p>P.O. Box 601631<br/>Dallas, TX 75360</p>
+        </div>
       </Segment>
       </div>
     )
   }
-
-
 }
 
 export default Footer;

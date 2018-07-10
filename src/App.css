@@ -1,0 +1,122 @@
+a {
+  color: #fff;
+}
+
+.at {
+  padding: 20px;
+  width: 80vw;
+  opacity: 0.9;
+}
+
+.at h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.at label {
+  color: #fff !important;
+}
+
+.at header {
+  color: #fff !important;
+}
+
+.at-legend {
+  color: #fff !important;
+}
+
+.at-inner {
+  background-color: #0E86C9 !important;
+  border-radius: 25px;
+
+}
+
+.at .btn-at-primary {
+  background-color: #FC6307 !important;
+  border-color:white !important;
+}
+
+.logo {
+  padding: 0px;
+  border: 0px;
+  margin: 0px !important;
+  width: 14em !important;
+
+}
+
+.logoBox {
+  padding: 0px !important;
+  border: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url('./ColinGroup.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ui.menu {
+  background-color: #134268;
+  opacity: 0.9;
+}
+
+.message {
+  padding: 20px;
+  text-align: center;
+  color: white;
+  text-shadow: -1px 0 #134268, 0 1px #134268, 1px 0 #134268, 0 -1px #134268;
+}
+
+.messageSpace {
+  padding: 40px;
+}
+
+.backButton {
+  background-color: #FC6307 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+}
+
+.ui.menu{
+  border: 0px;
+}
+
+.footer {
+  opacity: 0.9;
+  text-align: center;
+}
+
+.footer .content{
+  background-color: #134268;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.footer .icon {
+  padding: 20px;
+}
+
+.footerdiv {
+  color: #FC6307 !important;
+}
+
+.paidFor {
+  border: 3px solid #fff;
+  width: 30rem;
+  margin: auto;
+  padding: 10px;
+}
+
+.address {
+  padding: 20px;
+  color: white;
+}
+
+.social {
+  padding: 10px;
+}

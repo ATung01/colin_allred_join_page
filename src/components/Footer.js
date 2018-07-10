@@ -8,23 +8,16 @@ class Footer extends React.Component {
     return (
       <div className='footer'>
       <Segment padded className='footer content'>
-        <a> About </a>
-        <a> | </a>
-        <a> Join </a>
-        <a> | </a>
-        <a> Donate </a>
-        <a> | </a>
-        <a> Press </a>
-        <a> | </a>
-        <a> Jobs </a>
+        <Button className="backButton" >Back to Homepage</Button>
+        <Button className="backButton" >Back to Homepage</Button>
         <Divider className='footerdiv' section></Divider>
         <div className='paidFor'>
           <a>Paid for by Colin Allred for Congress</a>
         </div>
         <div className='social'>
-          <Icon name='facebook' size='huge'/>
-          <Icon name='twitter' size='huge'/>
-          <Icon name='instagram' size='huge'/>
+          <Icon inverted name='facebook' size='huge'/>
+          <Icon inverted name='twitter' size='huge'/>
+          <Icon inverted name='instagram' size='huge'/>
         </div>
         <div className='address'>
           <p>P.O. Box 601631<br/>Dallas, TX 75360</p>

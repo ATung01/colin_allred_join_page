@@ -79,7 +79,9 @@ body {
   background-color: #FC6307 !important;
   color: #fff !important;
   border: 1px solid #fff !important;
+  margin: 8px !important;
 }
+
 
 .ui.menu{
   border: 0px;
@@ -107,13 +109,13 @@ body {
 
 .paidFor {
   border: 3px solid #fff;
-  width: 24rem;
+  width: 20rem;
   margin: auto;
   padding: 10px;
 }
 
 .address {
-  padding: 20px;
+  padding: 15px;
   color: white;
 }
 

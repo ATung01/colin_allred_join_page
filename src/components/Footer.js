@@ -8,8 +8,8 @@ class Footer extends React.Component {
     return (
       <div className='footer'>
       <Segment padded className='footer content'>
-        <Button className="backButton" >Back to Homepage</Button>
-        <Button className="backButton" >Back to Homepage</Button>
+        <Button className="backButton footer" >Back to Homepage</Button>
+        <Button className="backButton footer" >Back to Homepage</Button>
         <Divider className='footerdiv' section></Divider>
         <div className='paidFor'>
           <a>Paid for by Colin Allred for Congress</a>

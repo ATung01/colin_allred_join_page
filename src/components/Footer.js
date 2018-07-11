@@ -15,9 +15,15 @@ class Footer extends React.Component {
           <a>Paid for by Colin Allred for Congress</a>
         </div>
         <div className='social'>
-          <Icon inverted name='facebook' size='huge'/>
-          <Icon inverted name='twitter' size='huge'/>
-          <Icon inverted name='instagram' size='huge'/>
+          <a href='https://www.facebook.com/ColinAllredTX/'>
+            <Icon inverted name='facebook' size='huge' link />
+          </a>
+          <a href='https://twitter.com/ColinAllredTX'>
+            <Icon inverted name='twitter' size='huge' link/>
+          </a>
+          <a href='https://www.instagram.com/colinallred/'>
+            <Icon inverted name='instagram' size='huge' link/>
+          </a>
         </div>
         <div className='address'>
           <p>P.O. Box 601631<br/>Dallas, TX 75360</p>

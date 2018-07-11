@@ -122,3 +122,7 @@ body {
 .social {
   padding: 10px;
 }
+
+.message a {
+  font-style: italic !important;
+}

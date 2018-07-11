@@ -17,7 +17,7 @@ class NavHeader extends React.Component {
 
         <Menu.Menu position ='right'>
         <Menu.Item >
-          <Button className="backButton" >Back to Homepage</Button>
+          <Button className="backButton" href="colinallred.com" >Back to Homepage</Button>
         </Menu.Item>
 
         </Menu.Menu>

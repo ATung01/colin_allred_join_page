@@ -12,7 +12,7 @@ class App extends Component {
           <NavHeader />
         </div>
         <div className='messageSpace'>
-          <h1 className='message'>Enter message here </h1>
+          <h3 className='message'>Colin Allred is the Democratic candidate for Texas' 32nd District. Colin is a civil rights attorney running to represent the people of North Texas who deserve a representative that will fight for them. <a href="www.colinallred.com/about" > Read more about Colin. </a></h3>
         </div>
 
         <div className='ngp-form'

@@ -6,6 +6,11 @@ import Footer from './components/Footer'
 
 class App extends Component {
   render() {
+    const mobilizeStyle = {
+      borderRadius: "25px",
+      border: "none",
+      padding: "0px"
+    }
     return (
       <div className="App">
         <div>
@@ -26,6 +31,13 @@ class App extends Component {
             data-inline-errors='true'
             data-fastaction-nologin='true'
             data-embed='true'>
+        </div>
+        <div className="mobilizeIFrame" >
+          <iframe title="mobilize" src="https://events.mobilizeamerica.io/embed/allredforcongress/feed/"
+          	style={mobilizeStyle}
+          	height="600px"
+          	width="100%">
+          </iframe>
         </div>
         <Footer/>
 

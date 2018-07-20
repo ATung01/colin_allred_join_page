@@ -132,5 +132,11 @@ body {
 
 .message a {
   text-decoration: underline !important;
+}
 
+.mobilizeIFrame {
+  border-radius: 25px !important;
+  margin: auto;
+  width: 75vw;
+  overflow: hidden;
 }

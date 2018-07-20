@@ -97,6 +97,7 @@ body {
 .footer {
   opacity: 0.9;
   text-align: center;
+  padding-top: 40px;
 }
 
 .footer .content{
@@ -137,6 +138,24 @@ body {
 .mobilizeIFrame {
   border-radius: 25px !important;
   margin: auto;
-  width: 75vw;
+  width: 70vw;
   overflow: hidden;
+
+}
+
+.middleRow {
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  width: 70%;
+  min-width: 320px;
+  justify-content: space-between;
+}
+
+.middleButton {
+  padding: 12px !important;
+  background-color: #FC6307 !important;
+  color: #fff !important;
+  border: 1px solid #fff !important;
+  opacity: 0.9;
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavHeader from './components/NavHeader'
 import './App.css';
 import Footer from './components/Footer'
+import { Button } from 'semantic-ui-react'
 
 
 class App extends Component {
@@ -31,6 +32,12 @@ class App extends Component {
             data-inline-errors='true'
             data-fastaction-nologin='true'
             data-embed='true'>
+        </div>
+        <div>
+          <div className="middleRow">
+            <Button className="middleButton" size="huge" href="https://www.colinallred.com">Back to Homepage</Button>
+            <Button className="middleButton" size="huge" href="https://secure.actblue.com/contribute/page/colinallred/?utm_medium=referral&utm_campaign=donate&utm_content=homepage_donate&refcode=referral__donate_joinpage_donate">Make a contribution</Button>
+          </div>
         </div>
         <div className="mobilizeIFrame" >
           <iframe title="mobilize" src="https://events.mobilizeamerica.io/embed/allredforcongress/feed/"

@@ -18,11 +18,12 @@ class NavHeader extends React.Component {
 
         <Menu.Menu position ='right'>
           <Menu.Item >
-            <Button className="backButton" size="massive" href="https://www.colinallred.com" >Make a contribution</Button>
+            <div>
+              <Button className="backButton" size="small" href="https://www.colinallred.com" >Make a contribution</Button>
+              <Button className="backButton" size="small" style={{display: "block"}}href="https://www.colinallred.com" >Back to Home</Button>
+            </div>
           </Menu.Item>
-          <Menu.Item >
-            <Button className="backButton" size="massive" href="https://www.colinallred.com" >Back to Home</Button>
-          </Menu.Item>
+
         </Menu.Menu>
       </Menu>
       </div>

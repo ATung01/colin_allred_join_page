@@ -79,6 +79,8 @@ body {
 
 .messageSpace {
   padding: 40px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .backButton {
@@ -87,8 +89,6 @@ body {
   border: 1px solid #fff !important;
   margin: 8px !important;
   opacity: 1 !important;
-  width: 180px;
-  height: 40px;
 }
 
 
@@ -169,11 +169,26 @@ body {
 }
 
 .innerHeader {
-  width: 70%;
+  width: 90%;
   margin: auto;
 }
 
 .App {
   background-color: #134268;
   opacity: 0.9;
+}
+
+.joinHeader {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 480px) {
+  .message {
+    font-size: 1.2rem;
+  }
 }

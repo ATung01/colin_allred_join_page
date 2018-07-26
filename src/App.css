@@ -172,3 +172,8 @@ body {
   width: 70%;
   margin: auto;
 }
+
+.App {
+  background-color: #134268;
+  opacity: 0.9;
+}

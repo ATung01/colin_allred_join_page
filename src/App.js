@@ -14,8 +14,8 @@ class App extends Component {
     }
     return (
       <div className="App">
-        <div>
-          <NavHeader />
+        <div className="headerContainer">
+          <NavHeader/>
         </div>
         <div className='messageSpace'>
           <h3 className='message'>Colin Allred is the Democratic candidate for Texas' 32nd District. Colin is a civil rights attorney running to represent the people of North Texas who deserve a representative that will fight for them. <a href="https://www.colinallred.com/about" > Read more about Colin. </a></h3>
@@ -35,7 +35,7 @@ class App extends Component {
         </div>
         <div>
           <div className="middleRow">
-            <Button className="middleButton" size="huge" href="https://www.colinallred.com">Back to Homepage</Button>
+            <Button className="middleButton" size="huge" href="https://www.colinallred.com">Back to Home</Button>
             <Button className="middleButton" size="huge" href="https://secure.actblue.com/contribute/page/colinallred/?utm_medium=referral&utm_campaign=donate&utm_content=homepage_donate&refcode=referral__donate_joinpage_donate">Make a contribution</Button>
           </div>
         </div>

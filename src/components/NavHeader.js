@@ -10,18 +10,22 @@ class NavHeader extends React.Component {
 
   render () {
     return (
+      <div className="innerHeader">
       <Menu>
         <Menu.Item className = "logoBox">
           <img className="logo" src={logo}/>
         </Menu.Item>
 
         <Menu.Menu position ='right'>
-        <Menu.Item >
-          <Button className="backButton" href="https://www.colinallred.com" >Back to Homepage</Button>
-        </Menu.Item>
-
+          <Menu.Item >
+            <Button className="backButton" size="massive" href="https://www.colinallred.com" >Make a contribution</Button>
+          </Menu.Item>
+          <Menu.Item >
+            <Button className="backButton" size="massive" href="https://www.colinallred.com" >Back to Home</Button>
+          </Menu.Item>
         </Menu.Menu>
       </Menu>
+      </div>
     )
   }
 }

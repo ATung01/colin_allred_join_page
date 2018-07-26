@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <Segment padded className='footer content'>
         <Divider className='footerdiv' section></Divider>
         <div className='paidFor'>
-          <a>Paid for by Colin Allred for Congress</a>
+          <h3>Paid for by Colin Allred for Congress</h3>
         </div>
         <div className='social'>
           <a href='https://www.facebook.com/ColinAllredTX/'>

@@ -87,6 +87,8 @@ body {
   border: 1px solid #fff !important;
   margin: 8px !important;
   opacity: 1 !important;
+  width: 180px;
+  height: 40px;
 }
 
 
@@ -117,9 +119,10 @@ body {
 
 .paidFor {
   border: 3px solid #fff;
-  width: 20rem;
+  width: 26rem;
   margin: auto;
   padding: 10px;
+  color: white;
 }
 
 .address {
@@ -129,6 +132,7 @@ body {
 
 .social {
   padding: 10px;
+  margin-bottom: 20px;
 }
 
 .message a {
@@ -140,7 +144,6 @@ body {
   margin: auto;
   width: 70vw;
   overflow: hidden;
-
 }
 
 .middleRow {
@@ -158,4 +161,14 @@ body {
   color: #fff !important;
   border: 1px solid #fff !important;
   opacity: 0.9;
+}
+
+.headerContainer{
+  background-color: #134268;
+  opacity: 0.9;
+}
+
+.innerHeader {
+  width: 70%;
+  margin: auto;
 }

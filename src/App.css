@@ -4,8 +4,9 @@ a {
 
 .at {
   padding: 20px;
-  width: 80vw;
+  width: 80%;
   opacity: 0.9;
+
 }
 
 .at h1 {
@@ -142,7 +143,7 @@ body {
 .mobilizeIFrame {
   border-radius: 25px !important;
   margin: auto;
-  width: 70vw;
+  width: 80%;
   overflow: hidden;
 }
 
@@ -184,6 +185,10 @@ body {
   font-size: 3rem;
   color: white;
   margin: 0px;
+  padding: 0px;
+}
+
+.ngp-form {
   padding: 0px;
 }
 

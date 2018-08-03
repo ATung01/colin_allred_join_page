@@ -29,7 +29,7 @@ a {
 
 .at-inner {
   background-color: #0E86C9 !important;
-  border-radius: 25px;
+  border-radius: 5px;
 
 }
 
@@ -141,7 +141,7 @@ body {
 }
 
 .mobilizeIFrame {
-  border-radius: 25px !important;
+  border-radius: 5px !important;
   margin: auto;
   width: 80%;
   overflow: hidden;
